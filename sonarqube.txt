@@ -1,0 +1,61 @@
+www.DevOpsSchool.com
+www.DevOpsSchool.com/Slides
+www.DevOpsSchool.com/tutorial
+www.DevOpsSchool.com/pdf
+www.DevOpsSchool.com/notes
+www.DevOpsSchool.com/lms
+www.DevOpsSchool.com/blog
+
+
+
+
+what is sonarqube
+=====================
+It is a quality management tool
+Release
+        Community - Free - OS
+        Enterprise - PAID
+Developed in Java
+From sonarSource
+Powered by Plugins
+        - Extension of function - through plugins.
+
+What is quality
+================
+    - code quality
+            1. peer code review
+            2. static code analysis - automatically  - reports
+    - Test quality
+
+
+sonarqube architecture
+====================
+sonarqube components
+    - sonarqube server
+        - server is made up of 
+          database + dashboard + rules
+          database is where all the reports are stored
+                MYSQL
+                H2
+                ORACLE
+                MSSQL
+                PS
+    - scanner
+        - jar file
+        - it is agent and present there where the source code lies
+                commandline
+                Maven
+                Gradle
+                Jenkins
+                msbuild        
+    - source code
+
+
+What is qualityProfile
+=====================
+IT is a collection of rules, rules are present in sonarqube
+We can create our own qualityProfile
+
+
+sonarqube 6 - JDK 8
+sonarqube 7 - JDK 11
